@@ -281,23 +281,27 @@ https://github.com/AdnanRaj01
 LinkedIn:
 https://www.linkedin.com/in/muhammad-adnan-a0a1aa2b1/
 
-## 📸 Preview
+---
 
-### Home Page
+## 📸 Project Preview
 
-![Home](./frontend/public/screenshots/feed.JPG)
+### 🏠 Home Page
 
-### Feed Login
+![Home Page](./frontend/public/screenshots/feed.JPG)
+
+### 🔐 Feed Login Page
 
 ![Feed Login Page](./frontend/public/screenshots/feedlogin.JPG)
 
-### Profile
+### 👤 Profile Page
 
-![Profile](./frontend/public/screenshots/Profile.JPG)
+![Profile Page](./frontend/public/screenshots/Profile.JPG)
 
-### Mobile View
+### 📱 Mobile View
 
 ![Mobile View](./frontend/public/screenshots/Mobile.JPG)
+
+---
 
 📄 License
 
