@@ -285,19 +285,19 @@ https://www.linkedin.com/in/muhammad-adnan-a0a1aa2b1/
 
 ### Home Page
 
-![Home](./public/screenshots/feed.JPG)
+![Home](./frontend/public/screenshots/feed.JPG)
 
 ### Feed Login
 
-![Feed Login Page](./public/screenshots/feedlogin.JPG)
+![Feed Login Page](./frontend/public/screenshots/feedlogin.JPG)
 
 ### Profile
 
-![Profile](./public/screenshots/Profile.JPG)
+![Profile](./frontend/public/screenshots/Profile.JPG)
 
-### MOBILE VIEW
+### Mobile View
 
-![Mobile View](./public/projects/Mobile.JPG)
+![Mobile View](./frontend/public/screenshots/Mobile.JPG)
 
 📄 License
 
