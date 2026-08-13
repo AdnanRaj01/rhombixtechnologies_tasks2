@@ -1,25 +1,27 @@
 # Rhombix Social Network
 
-A full-stack social networking web application developed as part of the **Rhombix Technologies Internship Program**.
+A full-stack social networking web application developed as part of the **Rhombix Technologies Web Development Internship Program**.
 
-The application allows users to create an account, securely log in, access their social feed, manage their profile, and interact with the application through a responsive user interface.
+The application provides user authentication, registration, login, social feed access, profile management, responsive navigation, validation, notifications, and MongoDB database integration.
 
 ---
 
 ## 📌 Internship Task
 
 **Organization:** Rhombix Technologies  
-**Internship:** Web Development Internship  
-**Task:** Social Network Web Application  
+**Program:** Web Development Internship  
+**Project:** Social Network Web Application  
 **Developer:** Muhammad Adnan
 
 ---
 
 ## 🚀 Project Overview
 
-Rhombix Social Network is a full-stack web application built using the MERN-oriented technology stack.
+Rhombix Social Network is a full-stack web application built with a MERN-oriented technology stack.
 
-The project focuses on implementing:
+The project demonstrates the implementation of a modern social networking application with authentication, user management, responsive design, and REST API communication.
+
+### Main Objectives
 
 - User registration
 - User authentication
@@ -35,8 +37,6 @@ The project focuses on implementing:
 - MongoDB database integration
 - REST API communication
 
-The application has been designed to provide a clean and responsive experience across desktop, tablet, and mobile devices.
-
 ---
 
 ## ✨ Features
@@ -46,61 +46,79 @@ The application has been designed to provide a clean and responsive experience a
 - User registration
 - User login
 - JWT authentication
-- Secure password hashing using bcrypt
+- Secure password hashing using bcryptjs
 - Logout functionality
 - Protected user functionality
 - Gmail-based email validation
 - Strong password validation
-- Password confirmation validation
+- Confirm password validation
 - Username validation
-- Terms & Conditions and Privacy Policy acceptance
+- Terms & Conditions acceptance
+- Privacy Policy acceptance
+- Authentication success notifications
+- Authentication error notifications
+
+---
 
 ### 👤 User Profile
 
 - View user profile
-- Display user's name
+- Display user's full name
 - Display username
 - Display email
 - Profile information management
 - Profile picture support
 - Bio support
 
+---
+
 ### 📰 Social Feed
 
-- Feed page for authenticated users
+- Feed page
+- Authenticated user experience
 - Post-oriented social network structure
 - Post content support
-- Image/video media support
+- Image and video media support
 - Like functionality structure
 - Comment functionality structure
 
+---
+
 ### 📱 Responsive Design
 
-The application is responsive for:
+The application is designed to work across:
 
 - Desktop
 - Laptop
 - Tablet
 - Mobile devices
 
-On mobile devices, the navigation changes into a burger menu containing:
+On smaller screens, the desktop navigation is replaced with a responsive burger menu.
+
+### Mobile Navigation
+
+The mobile menu provides access to:
 
 - Home
 - Profile
 - User information
 - Logout
 
+The burger menu automatically closes when a navigation item is selected.
+
+---
+
 ### 🔔 Notifications
 
-The application provides:
+The application provides user-friendly notifications for:
 
-- Login success notification
-- Registration success notification
+- Login success
+- Registration success
 - Authentication errors
 - Validation errors
 - Server/API errors
 
-Success notifications are displayed before redirecting the user to the feed.
+Successful login and registration notifications are displayed before redirecting the user to the feed page.
 
 ---
 
@@ -120,7 +138,7 @@ Success notifications are displayed before redirecting the user to the feed.
 - Node.js
 - Express.js
 - REST API
-- JWT
+- JSON Web Token (JWT)
 - bcryptjs
 
 ### Database
@@ -144,6 +162,13 @@ Success notifications are displayed before redirecting the user to the feed.
 rhombixtechnologies_tasks/
 │
 ├── frontend/
+│   ├── public/
+│   │   └── screenshots/
+│   │       ├── feed.JPG
+│   │       ├── feedlogin.JPG
+│   │       ├── Profile.JPG
+│   │       └── Mobile.JPG
+│   │
 │   ├── src/
 │   │   ├── components/
 │   │   ├── context/
@@ -152,7 +177,6 @@ rhombixtechnologies_tasks/
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   │
-│   ├── public/
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -161,6 +185,7 @@ rhombixtechnologies_tasks/
 │   ├── models/
 │   │   ├── User.js
 │   │   └── Post.js
+│   │
 │   ├── routes/
 │   ├── middleware/
 │   ├── config/
@@ -171,142 +196,52 @@ rhombixtechnologies_tasks/
 ├── .gitignore
 └── README.md
 
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/YOUR_USERNAME/rhombixtechnologies_tasks.git
+# 👨‍💻 Developer
 
-Move into the project:
+**Muhammad Adnan**
 
-cd rhombixtechnologies_tasks
-💻 Frontend Setup
+**Full Stack Web Developer**
 
-Open the frontend directory:
+### GitHub
 
-cd frontend
+[https://github.com/AdnanRaj01](https://github.com/AdnanRaj01)
 
-Install dependencies:
+### LinkedIn
 
-npm install
-
-Start the development server:
-
-npm run dev
-
-The frontend will normally run on:
-
-http://localhost:5173
-🖥️ Backend Setup
-
-Open another terminal and navigate to:
-
-cd backend
-
-Install dependencies:
-
-npm install
-
-Create a .env file:
-
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-
-Start the backend:
-
-npm run dev 
-
-📱 Responsive Navigation
-
-The navigation system provides separate experiences for desktop and mobile devices.
-
-Desktop
-Rhombix Social     Home   Profile   User   Logout
-Mobile
-Rhombix Social                         ☰
-
-Home
-Profile
-User
-Logout
-
-The mobile burger menu automatically closes when a navigation item is selected.
-
-🧪 Validation
-
-The application includes validation for:
-
-Full Name
-Required
-Minimum 2 characters
-Username
-Required
-3–20 characters
-Supports letters
-Supports numbers
-Supports underscores
-Supports special characters
-Gmail
-Required
-Must use a valid Gmail address
-Password
-
-Password must contain:
-
-Minimum 8 characters
-At least one uppercase letter
-At least one lowercase letter
-At least one number
-At least one special character
-Confirm Password
-Must match the password
-🧹 Code Quality
-
-ESLint is used to identify JavaScript and React code quality issues.
-
-Run:
-
-npm run lint
-
-The project should be submitted after resolving all lint errors.
-
-👨‍💻 Developer
-
-Muhammad Adnan
-
-Full Stack Web Developer
-
-GitHub:
-https://github.com/AdnanRaj01
-
-LinkedIn:
-https://www.linkedin.com/in/muhammad-adnan-a0a1aa2b1/
+[https://www.linkedin.com/in/Muhammad-Adnan-A0a1AA2b1/](https://www.linkedin.com/in/Muhammad-Adnan-A0a1AA2b1/)
 
 ---
 
-## 📸 Project Preview
+# 📄 License
 
-### 🏠 Home Page
+This project was developed for educational and internship purposes as part of the **Rhombix Technologies Internship Program**.
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving the repository a ⭐ on GitHub.
+
+# 📸 Project Preview
+
+## 🏠 Home Page
 
 ![Home Page](./frontend/public/screenshots/feed.JPG)
 
-### 🔐 Feed Login Page
+---
+
+## 🔐 Feed Login Page
 
 ![Feed Login Page](./frontend/public/screenshots/feedlogin.JPG)
 
-### 👤 Profile Page
+---
+
+## 👤 Profile Page
 
 ![Profile Page](./frontend/public/screenshots/Profile.JPG)
 
-### 📱 Mobile View
-
-![Mobile View](./frontend/public/screenshots/Mobile.JPG)
-
 ---
 
-📄 License
+## 📱 Mobile View
 
-This project was developed for educational and internship purposes as part of the Rhombix Technologies Internship Program.
-
-## ⭐ Support
-
-If you like this project, please consider giving it a ⭐ on GitHub.
+![Mobile View](./frontend/public/screenshots/Mobile.JPG)
