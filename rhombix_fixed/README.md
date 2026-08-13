@@ -281,6 +281,28 @@ https://github.com/AdnanRaj01
 LinkedIn:
 https://www.linkedin.com/in/muhammad-adnan-a0a1aa2b1/
 
+## 📸 Preview
+
+### Home Page
+
+![Home](./public/screenshots/feed.JPG)
+
+### Feed Login
+
+![Feed Login Page](./public/screenshots/feedlogin.JPG)
+
+### Profile
+
+![Profile](./public/screenshots/Profile.JPG)
+
+### MOBILE VIEW
+
+![Mobile View](./public/projects/Mobile.JPG)
+
 📄 License
 
 This project was developed for educational and internship purposes as part of the Rhombix Technologies Internship Program.
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
